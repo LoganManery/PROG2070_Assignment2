@@ -131,6 +131,7 @@ namespace TriangleTest
             [Test]
             public void AnalyzeTriangle_ValidScalene_5_12_13() 
             {
+                // Arrange
                 var triangle = new Triangle(5, 12, 13);
 
                 // Act
@@ -145,6 +146,7 @@ namespace TriangleTest
             [Test]
             public void AnalyzeTriangle_ValidScalene_8_15_17()
             {
+                // Arrange
                 var triangle = new Triangle(8, 15, 17);
 
                 // Act
@@ -159,6 +161,7 @@ namespace TriangleTest
             [Test]
             public void AnalyzeTriangle_ValidScalene_7_24_25()
             {
+                // Arrange
                 var triangle = new Triangle(7, 24, 25);
 
                 // Act
@@ -173,6 +176,7 @@ namespace TriangleTest
             [Test]
             public void AnalyzeTriangle_ValidScalene_10_24_26()
             {
+                // Arrange
                 var triangle = new Triangle(10, 24, 26);
 
                 // Act
@@ -188,7 +192,50 @@ namespace TriangleTest
         [TestFixture]
         public class ZeroTest
         {
+            [Test]
+            public void AnalyzeTriangle_ZeroLengthSideA_ReturnsInvalid()
+            {
+                // Arrange
+                var triangle = new Triangle(0, 3, 4);
 
+                // Act
+                string invalidRegex = @"invalid$";
+                Regex re = new Regex(invalidRegex);
+                bool isInvalid = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isInvalid);
+            }
+
+            [Test]
+            public void AnalyzeTriangle_ZeroLengthSideB_ReturnsInvalid()
+            {
+                // Arrange
+                var triangle = new Triangle(2, 0, 4);
+
+                // Act
+                string invalidRegex = @"invalid$";
+                Regex re = new Regex(invalidRegex);
+                bool isInvalid = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isInvalid);
+            }
+
+            [Test]
+            public void AnalyzeTriangle_ZeroLengthSideC_ReturnsInvalid()
+            {
+                // Arrange
+                var triangle = new Triangle(2, 3, 0);
+
+                // Act
+                string invalidRegex = @"INVALID$";
+                Regex re = new Regex(invalidRegex);
+                bool isInvalid = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isInvalid);
+            }
         }
 
         [TestFixture]
