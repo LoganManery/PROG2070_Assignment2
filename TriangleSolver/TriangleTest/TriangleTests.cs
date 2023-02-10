@@ -15,7 +15,50 @@ namespace TriangleTest
         [TestFixture]
         public class EquilateralTest
         {
-            
+            [Test]
+            public void AnalyzeTriangle_ValidEquilateral_3_3_3()
+            {
+                // Arrange
+                var triangle = new Triangle(3, 3, 3);
+
+                // Act
+                string equilateralRegex = @"EQUILATERAL$";
+                Regex re = new Regex(equilateralRegex);
+                bool isEquilateral = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isEquilateral);
+            }
+
+            [Test]
+            public void AnalyzeTriangle_ValidEquilateral_5_5_5()
+            {
+                // Arrange
+                var triangle = new Triangle(5, 5, 5);
+
+                // Act
+                string equilateralRegex = @"EQUILATERAL$";
+                Regex re = new Regex(equilateralRegex);
+                bool isEquilateral = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isEquilateral);
+            }
+
+            [Test]
+            public void AnalyzeTriangle_ValidEquilateral_12_12_12()
+            {
+                // Arrange
+                var triangle = new Triangle(12, 12, 12);
+
+                // Act
+                string equilateralRegex = @"EQUILATERAL$";
+                Regex re = new Regex(equilateralRegex);
+                bool isEquilateral = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isEquilateral);
+            }
         }
 
         [TestFixture]
