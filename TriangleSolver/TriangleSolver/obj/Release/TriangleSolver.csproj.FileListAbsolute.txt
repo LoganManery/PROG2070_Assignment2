@@ -1,0 +1,15 @@
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\NUnit3.TestAdapter.dll
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\NUnit3.TestAdapter.pdb
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\nunit.engine.dll
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\nunit.engine.api.dll
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\nunit.engine.core.dll
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\testcentric.engine.metadata.dll
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\TriangleSolver.dll
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\TriangleSolver.pdb
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\nunit.framework.dll
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\bin\Release\nunit.framework.xml
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\obj\Release\TriangleSolver.csproj.AssemblyReference.cache
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\obj\Release\TriangleSolver.csproj.CoreCompileInputs.cache
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\obj\Release\TriangleSolver.csproj.CopyComplete
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\obj\Release\TriangleSolver.dll
+C:\.,CCCourses\Y2S2\PROG2070\Assignments\Assignment 2\TriangleSolver\TriangleSolver\obj\Release\TriangleSolver.pdb
