@@ -21,7 +21,50 @@ namespace TriangleTest
         [TestFixture]
         public class IsoscelesTest
         {
-            
+            [Test]
+            public void AnalyzeTriangle_ValidIsosceles_2_2_3()
+            {
+                // Arrange
+                var triangle = new Triangle(2, 2, 3);
+
+                // Act
+                string isoscelesRegex = @"ISOSCELES$";
+                Regex re = new Regex(isoscelesRegex);
+                bool isIsosceles = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isIsosceles);
+            }
+
+            [Test]
+            public void AnalyzeTriangle_ValidIsosceles_3_3_5()
+            {
+                // Arrange
+                var triangle = new Triangle(3, 3, 5);
+
+                // Act
+                string isoscelesRegex = @"ISOSCELES$";
+                Regex re = new Regex(isoscelesRegex);
+                bool isIsosceles = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isIsosceles);
+            }
+
+            [Test]
+            public void AnalyzeTriangle_ValidIsosceles_4_4_6()
+            {
+                // Arrange
+                var triangle = new Triangle(4, 4, 6);
+
+                // Act
+                string isoscelesRegex = @"ISOSCELES$";
+                Regex re = new Regex(isoscelesRegex);
+                bool isIsosceles = re.IsMatch(triangle.AnalyzeTriangle());
+
+                // Assert
+                Assert.IsTrue(isIsosceles);
+            }
         }
 
         [TestFixture]
